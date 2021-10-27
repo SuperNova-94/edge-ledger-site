@@ -206,7 +206,7 @@ p {
     display: flex;
 }
 
-#contact .map, #contact .contact-form {
+#contact #mapid, #contact .contact-form {
     flex: 1;
 }
 
