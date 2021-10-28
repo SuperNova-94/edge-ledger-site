@@ -114,7 +114,7 @@ p {
     color: #fff;
     justify-content: space-between;
     z-index: 1; /* Ensures it will always be infront of you (on-top) */
-    padding: 1rem;
+    padding: 1rem 30px;
 }
 
 #navbar ul {
@@ -125,15 +125,19 @@ p {
 
 #navbar ul li a {
     color: white;
-    padding: 0.75rem;
+    padding: 0.75rem 30px;
     margin: 0 0.25rem;
     cursor: pointer;
     transition: 0.1s ease-in;
+    font-size: 1.2rem;
 }
 
 #navbar ul  li a:hover {
-    background: #7ab436;
-    border-radius: 5px;
+    /* background: #7ab436; */
+    /* border-radius: 5px; */
+    padding-bottom: 0.72rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    border-bottom: #7ab436 1px solid;
 }
 
 /* Showcase */
