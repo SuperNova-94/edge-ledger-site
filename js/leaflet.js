@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([42.361145, -71.057083], 13);
+var mymap = L.map(document.querySelector('#contact .map')).setView([42.361145, -71.057083], 13);
 var marker = L.marker([42.361145, -71.057083]).addTo(mymap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
