@@ -146,6 +146,7 @@ p {
     background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../img/showcase.jpg') no-repeat center/cover;
     height: 100vh;
     color: #fff;
+    position: relative;
 }
 
 #showcase .showcase-content {
@@ -155,7 +156,7 @@ p {
     justify-content: center; 
     align-items: center; /* Note this will not work without a height */
     height: 100%; /* height specified */
-    padding: 0 2rem
+    padding: 0 2rem;
 }
 
 /* Section: What We Do */
